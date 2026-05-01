@@ -1,6 +1,6 @@
 # Summary – NW–Dhaka–SE Economic Corridor Study
 
-> Source: *Summary - Economic Corridor Study.pdf* (April 2026, ADB)
+> Source: *Northwest – Dhaka – Southeast Economic Corridor Development Study* (April 2026, ADB)
 
 ## What It Is
 - **Northwest–Dhaka–Southeast (NW–D–SE) Economic Corridor** initiative
@@ -79,7 +79,7 @@
 
 # Summary – SW–Dhaka–NE Economic Corridor Study
 
-> Source: *Bangladesh Economic Corridor Development Highlights* (August 2023, ADB). **Not from local PDF** — sourced from ADB/SASEC publications.
+> Source: *Bangladesh Economic Corridor Development Highlights* (August 2023, ADB)
 
 ## What It Is
 - **Southwest–Dhaka–Northeast (SW–D–NE) Economic Corridor** — a separate, earlier corridor proposal
@@ -130,7 +130,7 @@
 
 # BIDA FDI Heatmap: 11 Priority Sector Clusters
 
-> Enriched with data from *Details - Economic Corridor Study.pdf* (Feb 2026) — cluster framework (Ch.4), RCA dynamics (Ch.5), sectoral linkages (SAM 2024), and freight analysis (Ch.7).
+> Enriched with data from *Northwest-Dhaka-Southeast (Tetulia-Dhaka-Teknaf): Economic Corridor Development Study* (Feb 2026)
 
 ## 1. Textiles & Apparel
 - **Cluster(s):** Chattogram Cluster, Mirsharai Cluster, South-West Cluster
