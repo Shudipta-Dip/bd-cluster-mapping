@@ -16,7 +16,7 @@ const mapData = {
       recommendation: "Pivot to high-value, space-efficient production due to land scarcity in mature EPZs. Develop tertiary care medical tourism hub.",
       description: "Primary maritime gateway & blue economy hub. Largest seaport, several EPZs (~30% of truck movements containerized). RMG, leather manufacturing.",
       note: "Linkage: Clothing 28.95, Leather 22.66, Transport 39.28. Fast-growing logistics and services economy.",
-      ezNearby: "Chattogram EPZ, Karnaphuli EPZ, BSMSN (60km north)",
+      ezNearby: "Chattogram EPZ, Karnaphuli EPZ, NSEZ (60km north)",
       portsNearby: "Chattogram Port (primary seaport)",
       existingOperations: "<ul><li><b>Textiles & Apparel:</b> Youngone Corporation (CEPZ)</li><li><b>Pharmaceuticals:</b> Albion Laboratories</li><li><b>Leather:</b> Excelsior Shoes Ltd. (CEPZ)</li><li><b>Logistics:</b> Summit Alliance Port Limited (SAPL)</li></ul>"
     },
@@ -27,11 +27,11 @@ const mapData = {
       rcaDetails: "Textiles: men's underwear +2.73, men's suits +2.06. Electronics linkage 7.13. ICT linkage 22.00.",
       quickWins: "Electronics assembly, BPO, EV manufacturing",
       recommendation: "Leverage 46,000-acre master-planned township. Resolve infrastructure bottlenecks (gas/utility).",
-      description: "Diversified manufacturing and IT/BPO. Anchored by BSMSN — 46,000 acres of master-planned land. EV plant (BAIL) on 100-acre plot.",
+      description: "Diversified manufacturing and IT/BPO. Anchored by NSEZ (National Special Economic Zone) — 46,000 acres of master-planned land. EV plant (BAIL) on 100-acre plot.",
       note: "Large worker population creates demand for private health/education providers.",
-      ezNearby: "BSMSN (Mirsharai), Chinese Economic & Industrial Zone",
+      ezNearby: "NSEZ (Mirsharai), Chinese Economic & Industrial Zone",
       portsNearby: "Chattogram Port (approx. 60 km south)",
-      existingOperations: "<ul><li><b>Textiles:</b> Jinyuan Chemical Industry (BSMSN)</li><li><b>Electronics:</b> McDonald Steel Building Products (BSMSN)</li><li><b>IT:</b> BEPZA Economic Zone (Infrastructure operational)</li><li><b>Auto/EV:</b> BAIL (Machinery installation operational)</li></ul>"
+      existingOperations: "<ul><li><b>Electronics:</b> No major manufacturer operational yet; MEP Hi-Tech cluster (production targeted 2029)</li><li><b>IT:</b> BEPZA Economic Zone (Infrastructure operational)</li><li><b>Auto/EV:</b> BAIL (Machinery installation operational)</li></ul>"
     },
     {
       id: "sdhk", name: "South Dhaka Cluster", lat: 23.6238, lng: 90.5000, radius: 12000,
@@ -44,7 +44,7 @@ const mapData = {
       note: "Chemicals linkage 17.42. Padma Bridge creates new logistics axis to Mongla Port.",
       ezNearby: "Adamjee EPZ, BSCIC Plastic Industrial Estate (Munshiganj)",
       portsNearby: "Pangaon Inland Container Terminal",
-      existingOperations: "<ul><li><b>Pharma:</b> Eskayef Pharmaceuticals (SK+F), Sun Pharma</li><li><b>Plastics:</b> Ideal Fibre Industries, S.K. Plastic Industries</li><li><b>Agro:</b> City Group, Meghna Group (Narayanganj)</li></ul>"
+      existingOperations: "<ul><li><b>Pharma:</b> Eskayef Pharmaceuticals (SK+F), Sun Pharma</li><li><b>Plastics:</b> Ideal Fibre Industries, S.K. Plastic Industries, Diamond Disposable and Plastic Industries (Keraniganj)</li><li><b>Agro:</b> City Group, Meghna Group (Narayanganj)</li></ul>"
     },
     {
       id: "ndhk", name: "North Dhaka Cluster", lat: 23.9999, lng: 90.4203, radius: 15000,
@@ -81,9 +81,9 @@ const mapData = {
       recommendation: "Leverage Padma Bridge connectivity for revitalized manufacturing.",
       description: "Port-led manufacturing linked to Mongla Port and Benapole border trade. Revitalized by Padma Bridge and Khulna–Mongla rail link.",
       note: "Khulna–Jashore specialization in SW–D–NE corridor study.",
-      ezNearby: "Mongla EPZ, Jashore EPZ, Khulna Industrial Area",
+      ezNearby: "Mongla EPZ, Jashore EPZ (under development), Khulna Industrial Area",
       portsNearby: "Mongla Seaport, Payra Seaport, Benapole, Bhomra Land Ports",
-      existingOperations: "<ul><li><b>Textiles:</b> Garment factories in Jashore EPZ</li><li><b>Plastics:</b> Diamond Disposable and Plastic Industries</li><li><b>Agro:</b> Apex Foods (Rupsha, Khulna)</li><li><b>Light Eng:</b> Jashore BSCIC Light Engineering</li><li><b>Leather:</b> SAF Industries (Noapara, Jashore)</li></ul>"
+      existingOperations: "<ul><li><b>Textiles:</b> Garment & textile factories in Mongla EPZ</li><li><b>Agro:</b> Apex Foods (Rupsha, Khulna)</li><li><b>Light Eng:</b> Jashore BSCIC Light Engineering</li><li><b>Leather:</b> SAF Industries (Noapara, Jashore)</li></ul>"
     },
     {
       id: "ne", name: "North-East Cluster", lat: 24.8949, lng: 91.8687, radius: 18000,
@@ -95,7 +95,7 @@ const mapData = {
       description: "Agro-processing, IT/ITES, and cross-border logistics hub. Sylhet–Habiganj has local clay, glass sand, natural gas (>4 tcf).",
       note: "Ceramics/glass manufacturing potential. Gateways: Tamabil, Akhaura, Bibirbazar.",
       ezNearby: "Sylhet HiTech Park, Srihatta EZ (Moulvibazar)",
-      portsNearby: "Tamabil, Akhaura, Bibirbazar, Nakugaon Land Ports",
+      portsNearby: "Tamabil, Akhaura, Bibirbazar Land Ports",
       existingOperations: "<ul><li><b>Agro:</b> PRAN-RFL Habiganj Industrial Park</li><li><b>IT:</b> Sylhet Hi-Tech Park (IT incubation firms)</li><li><b>Logistics:</b> Tamabil Land Port</li></ul>"
     },
     {
@@ -105,24 +105,24 @@ const mapData = {
       rcaDetails: "No HS-code RCA; measured by linkage: electricity/gas/steam 23.36. Energy is infrastructure input.",
       quickWins: "Green ship recycling, Heavy industry",
       recommendation: "Develop climate-resilient infrastructure. Address island logistics and cyclone vulnerability.",
-      description: "National strategic priority — heavy industry and energy hub. Matarbari Deep-Sea Port and JICA power projects. 3,500+ acres.",
+      description: "National strategic priority — heavy industry and energy hub. Matarbari Deep-Sea Port (under construction) and JICA power projects. 3,500+ acres.",
       note: "Energy & Power receives 22.3% ($17.7B) of corridor investment.",
       ezNearby: "Moheshkhali EZ, Matarbari hub",
-      portsNearby: "Matarbari Deep-Sea Port",
-      existingOperations: "<ul><li><b>Renewable Energy:</b> Teknaf Solar Power Plant (Joules Power, 20MW)</li><li><b>Logistics:</b> Matarbari Deep-Sea Port channel</li></ul>"
+      portsNearby: "Matarbari Deep-Sea Port (under construction)",
+      existingOperations: "<ul><li><b>Renewable Energy:</b> Teknaf Solar Power Plant (Joules Power, 20MW)</li><li><b>Energy:</b> Matarbari Coal Power Plant (1,200 MW, fully operational)</li><li><b>Logistics:</b> Matarbari Deep-Sea Port channel (under construction, target 2029–2030)</li></ul>"
     },
     {
       id: "mym", name: "Mymensingh-Netrokona Cluster", lat: 24.7471, lng: 90.4203, radius: 12000,
-      sectors: ["Automotive & EV Ecosystem", "Agro-processing"],
+      sectors: ["Automotive & EV Ecosystem", "Agro-processing", "Logistics"],
       peakRCA: 0.20,
       rcaDetails: "Bicycles +0.20 (HS 8712). Tobacco machinery +1.68 (HS 8478). Auto/machinery in high-complexity, low GVC quadrant.",
       quickWins: "Two/three-wheeler EV manufacturing, Auto parts, Food processing",
       recommendation: "Requires FDI and technology partnerships. Emerging strategic growth area for import substitution.",
       description: "Transport equipment and food processing specialization (SW–D–NE corridor). Ceramics/glass potential.",
-      note: "Motor vehicles linkage 15.90. Local EV assembly emerging at BSMSN Mirsharai.",
-      ezNearby: "BSMSN (120km south), Bangabandhu Hi-Tech Park (90km south)",
-      portsNearby: "Nearest: Pangaon ICT (~100km); Chattogram Port (~250km)",
-      existingOperations: "<ul><li><b>Auto/EV:</b> Runner Automobiles (Bhaluka)</li><li><b>Agro:</b> Giant Agro Processing Ltd (Bhaluka)</li></ul>"
+      note: "Motor vehicles linkage 15.90. Local EV assembly emerging at NSEZ Mirsharai.",
+      ezNearby: "NSEZ (120km south), Bangabandhu Hi-Tech Park (90km south)",
+      portsNearby: "Nearest: Pangaon ICT (~100km); Chattogram Port (~250km); Nakugaon Land Port (Sherpur)",
+      existingOperations: "<ul><li><b>Auto/EV:</b> Runner Automobiles (Bhaluka)</li><li><b>Agro:</b> Giant Agro Processing Ltd (Bhaluka)</li><li><b>Logistics:</b> Nakugaon Land Port (Sherpur, cross-border with India/Meghalaya)</li></ul>"
     },
     {
       id: "tour", name: "Tourism Cluster (Cox's Bazar–Teknaf)", lat: 21.4272, lng: 92.0058, radius: 14000,
@@ -134,7 +134,7 @@ const mapData = {
       description: "High-end coastal recreation and eco-tourism hub. Cox's Bazar–Teknaf is one of the fastest-brightening NTL stretches (2014–2024).",
       note: "Sabrang Tourism Park faces cyclonic storm surge vulnerability. Teknaf trade with Myanmar collapsed to ~1,400 MT.",
       ezNearby: "Sabrang Tourism Park",
-      portsNearby: "Teknaf Land Port, Matarbari Deep-Sea Port (nearby)",
+      portsNearby: "Teknaf Land Port, Matarbari Deep-Sea Port (under construction, nearby)",
       existingOperations: "<ul><li><b>Logistics (Tourism):</b> Operational luxury resorts (e.g., Sea Pearl), Teknaf Land Port</li></ul>"
     }
   ],
@@ -150,7 +150,7 @@ const mapData = {
     { name: "Ishwardi EPZ", type: "EPZ", lat: 24.1200, lng: 89.0600, desc: "Pakshi, Pabna. Agro-processing, light mfg." },
     { name: "Uttara EPZ", type: "EPZ", lat: 25.9300, lng: 88.8600, desc: "Nilphamari. Garments, agro-processing." },
     // === Major Public Economic Zones (BEZA) ===
-    { name: "BSMSN (Mirsharai)", type: "EZ", lat: 22.7500, lng: 91.5333, desc: "Flagship. 46,000 acres. Electronics, chemicals, EV." },
+    { name: "NSEZ (Mirsharai)", type: "EZ", lat: 22.7500, lng: 91.5333, desc: "Flagship. 46,000 acres. Electronics, chemicals, EV." },
     { name: "Moheshkhali EZ", type: "EZ", lat: 21.6400, lng: 91.9400, desc: "Heavy industry, energy, steel. 3,500+ acres." },
     { name: "Mongla EZ", type: "EZ", lat: 22.4815, lng: 89.5900, desc: "Bagerhat. Linked to Mongla Port." },
     { name: "Sirajganj EZ", type: "EZ", lat: 24.4534, lng: 89.7006, desc: "Raised site. Jamuna erosion risk. Agro." },
@@ -187,8 +187,8 @@ const mapData = {
   ports: [
     { name: "Chattogram Port", type: "Seaport", lat: 22.3168, lng: 91.7955, desc: "Primary gateway. ~30% containerized. Largest seaport.", imageUrl: "https://chittagongportagent.com/wp-content/uploads/2025/03/Aerial-view-of-Chittagong-Port.webp" },
     { name: "Mongla Port", type: "Seaport", lat: 22.4815, lng: 89.6050, desc: "Alternative via Padma Bridge. SW gateway.", imageUrl: "https://www.bssnews.net/assets/news_photos/2025/09/12/image-311106-1757680178.jpg" },
-    { name: "Payra Port", type: "Seaport", lat: 21.9863, lng: 90.3015, desc: "Newer deep-sea port. Southern gateway.", imageUrl: "https://chittagongportagent.com/wp-content/uploads/2025/01/Port-of-Payra-Overview-1024x605.jpg.webp" },
-    { name: "Matarbari Deep-Sea Port", type: "Seaport", lat: 21.7100, lng: 91.8800, desc: "JICA-backed. Large vessels. Moheshkhali energy hub.", imageUrl: "https://rahmansc.com/wp-content/uploads/2023/10/Matarbari-Sea-Port.webp" },
+    { name: "Payra Port", type: "Seaport", lat: 21.9863, lng: 90.3015, desc: "Standard seaport (under construction). Southern gateway.", imageUrl: "https://chittagongportagent.com/wp-content/uploads/2025/01/Port-of-Payra-Overview-1024x605.jpg.webp" },
+    { name: "Matarbari Deep-Sea Port", type: "Seaport", lat: 21.7100, lng: 91.8800, desc: "JICA-backed. Under construction (target 2029–2030). Moheshkhali energy hub.", imageUrl: "https://rahmansc.com/wp-content/uploads/2023/10/Matarbari-Sea-Port.webp" },
     { name: "Pangaon ICT", type: "Seaport", lat: 23.5800, lng: 90.4300, desc: "Inland Container Terminal. River freight for Dhaka.", imageUrl: "https://static.bsaa.com.bd/uploads/store/page/a8e148a4-cc0e-46ed-a986-9a74dc6a3369/image/1200-f7ad408e73b70bd08c162d9c45cd6b35.jpg" },
     { name: "Benapole Land Port", type: "Land Port", lat: 23.0392, lng: 88.8967, desc: "Largest by volume. India–BD (West Bengal).", imageUrl: "https://static.bonikbarta.com/original_images/Benapole_collected.jpg" },
     { name: "Bhomra Land Port", type: "Land Port", lat: 22.8500, lng: 89.0100, desc: "SW gateway to India. Growing post-Padma Bridge.", imageUrl: "https://www.dailypost.net/media/imgAll/2023September/Satkhiraaa-20240404140934.jpg" },

@@ -5,7 +5,7 @@
 ## What It Is
 - **Northwest–Dhaka–Southeast (NW–D–SE) Economic Corridor** initiative
 - Covers **44 districts** within 50 km influence area on both sides of the transport spine
-- Aligned with BNP's election manifesto → targets **$1 trillion economy by 2034**
+- Targets **$1 trillion economy by 2034**
 
 ## Why It Matters
 - Manufacturing hyper-concentrated in Dhaka–Chattogram; rest of the country lags
@@ -115,7 +115,7 @@
 | Direction | Gateways |
 |---|---|
 | **Southwest** | Mongla seaport, Payra seaport, Benapole land port, Bhomra land port |
-| **Northeast** | Tamabil land port, Akhaura land port, Bibirbazar land port, Nakugaon land port |
+| **Northeast** | Tamabil land port, Akhaura land port, Bibirbazar land port |
 
 ## Projected Economic Impact
 
@@ -139,9 +139,9 @@
 - **Ports nearby:** Chattogram Port, Mongla Port, Benapole Land Port
 - **RCA:** Men's suits +2.06, men's underwear +2.73, women's blouses +1.70; women's overcoats –1.11
 - **Quick wins in:** Jute & leather products, RMG
-- **Existing Operations:** Youngone Corporation (CEPZ, Chattogram), Jinyuan Chemical Industry (BSMSN, Mirsharai), operational garment factories in Jashore EPZ (South-West).
+- **Existing Operations:** Youngone Corporation (CEPZ, Chattogram), garment & textile factories in Mongla EPZ (South-West).
 - **Recommendation(s):** Move toward technical textiles, design-intensive production, and branding to sustain long-term competitiveness.
-- **Note:** Sector total linkage 28.95 (highest among manufacturing). Textiles remain low-complexity (ECI ~ –1.2 to –1.4).
+- **Note:** Sector total linkage 28.95 (highest among manufacturing). Textiles remain low-complexity (ECI ~ –1.2 to –1.4). Jashore EPZ is under development (plot allocation expected late 2026).
 
 ## 2. Pharmaceuticals & Healthcare
 - **Cluster(s):** South Dhaka Cluster, North Dhaka Cluster, Chattogram Cluster
@@ -157,13 +157,13 @@
 ## 3. Automotive & EV Ecosystem
 - **Cluster(s):** Mymensingh–Netrokona, Mirsharai Cluster
 - **Belt(s):** Central Belt
-- **EZ/EPZs nearby:** Bangabandhu Sheikh Mujib Shilpa Nagar (BSMSN) in Mirsharai, Bangabandhu Hi-Tech Park (Gazipur), Abdul Monem EZ
-- **Ports nearby:** Chattogram Port (approx. 60 km from BSMSN); Pangaon Inland Container Terminal (for Central Belt)
+- **EZ/EPZs nearby:** NSEZ (National Special Economic Zone) in Mirsharai, Bangabandhu Hi-Tech Park (Gazipur), Abdul Monem EZ
+- **Ports nearby:** Chattogram Port (approx. 60 km from NSEZ); Pangaon Inland Container Terminal (for Central Belt)
 - **RCA:** Bicycles +0.20; machinery for preparing tobacco +1.68
 - **Quick wins in:** Two- and three-wheeler EV manufacturing, auto parts assembly, import substitution of light vehicles
-- **Existing Operations:** Runner Automobiles (operational motorcycle/EV assembly in Bhaluka, Mymensingh), Bangladesh Auto Industries Limited (BAIL) (Machinery installation operational in BSMSN, Mirsharai).
+- **Existing Operations:** Runner Automobiles (operational motorcycle/EV assembly in Bhaluka, Mymensingh), Bangladesh Auto Industries Limited (BAIL) (Machinery installation operational in NSEZ, Mirsharai).
 - **Recommendation(s):** Requires substantial FDI inflows and technology partnerships to develop. Prioritize resolving infrastructure bottlenecks (e.g., gas/utility connections for EV plants).
-- **Note:** Motor vehicles sector total linkage 15.90. Local assembly is an emerging strategic growth area to reduce import dependency. Auto parts are emerging alongside electronics assembly.
+- **Note:** Motor vehicles sector total linkage 15.90. Local assembly is an emerging strategic growth area to reduce import dependency. Auto parts are emerging alongside electronics assembly. Nakugaon Land Port (Sherpur, Mymensingh division) provides cross-border access to India's Meghalaya.
 
 ## 4. Leather & Footwear
 - **Cluster(s):** Chattogram Cluster, Khulna–Jashore
@@ -183,7 +183,7 @@
 - **Ports nearby:** Chattogram Port (approx. 60 km from Mirsharai); Hazrat Shahjalal International Airport (air freight for North Dhaka)
 - **RCA:** Electrical equipment sector linkage still modest (total 7.13)
 - **Quick wins in:** Consumer electronics assembly (mobile phones, home appliances), semiconductor design services
-- **Existing Operations:** Walton Hi-Tech Industries (appliance assembly in Kaliakoir, Gazipur), McDonald Steel Building Products (operational in BSMSN, Mirsharai).
+- **Existing Operations:** Walton Hi-Tech Industries (appliance assembly in Kaliakoir, Gazipur). No major electronics manufacturer is yet operational in NSEZ Mirsharai; MEP Hi-Tech Industrial Park cluster is planned (production targeted 2029).
 - **Recommendation(s):** Attract tech-intensive FDI to close the gap (product space shows electronics cluster largely empty vs. Vietnam). Support backward linkage for local component manufacturing.
 - **Note:** Electronics is a key pivot sector. North Dhaka is positioned as Bangladesh's premier IT/R&D and electronics assembly hub. Sector projected to exceed $10 billion by 2030.
 
@@ -194,7 +194,7 @@
 - **Ports nearby:** Mongla Port, Pangaon Inland Container Terminal
 - **RCA:** Waste/parings/scrap of plastics +0.49
 - **Quick wins in:** Export-oriented plastic toy manufacturing, plastic waste recycling, light plastic goods
-- **Existing Operations:** Ideal Fibre Industries (Fatullah, Narayanganj), Diamond Disposable and Plastic Industries (Keraniganj), S.K. Plastic Industries (Siddhirganj).
+- **Existing Operations:** Ideal Fibre Industries (Fatullah, Narayanganj), Diamond Disposable and Plastic Industries (Keraniganj, Dhaka), S.K. Plastic Industries (Siddhirganj).
 - **Recommendation(s):** Expedite the completion of the BSCIC Plastic Industrial Estate (delayed to 2027) to relocate and formalize Old Dhaka's plastic factories. Integrate with light engineering for Mongla Port-linked manufacturing.
 - **Note:** Plastics and chemicals sector has a total linkage of 17.42. Shortlisted manufacturing sector in both corridor studies.
 
@@ -216,7 +216,7 @@
 - **Ports nearby:** Not applicable for digital services (relies on submarine cable landing stations like Cox's Bazar and Kuakata; nearest physical seaport is Chattogram at 250+ km from Dhaka)
 - **RCA:** ICT sector total linkage 22.00 (identified as high-complexity, high GVC-integration opportunity)
 - **Quick wins in:** BPO, freelance outsourcing, SaaS, AI data annotation, technology villages
-- **Existing Operations:** Hi-Tech City Kaliakair (Operational data centers/IT firms), Sylhet Hi-Tech Park (IT incubation firms), BEPZA Economic Zone (Infrastructure operational in BSMSN).
+- **Existing Operations:** Hi-Tech City Kaliakair (Operational data centers/IT firms), Sylhet Hi-Tech Park (IT incubation firms), BEPZA Economic Zone (Infrastructure operational in NSEZ).
 - **Recommendation(s):** Pivot to 1M tech jobs, semiconductor development, AI data center campus.
 - **Note:** Leverages Dhaka's university ecosystem and skilled labor. Large worker population in Mirsharai creates demand for private health/education providers.
 
@@ -238,7 +238,7 @@
 - **Ports nearby:** Matarbari Deep-Sea Port
 - **RCA:** Electricity/gas/steam sector total linkage 23.36
 - **Quick wins in:** Green ship recycling
-- **Existing Operations:** Teknaf Solar Power Plant (Joules Power, 20MW operational in Cox's Bazar), Matarbari Coal Power Plant (operational but transitioning energy focus).
+- **Existing Operations:** Teknaf Solar Power Plant (Joules Power, 20MW operational in Cox's Bazar), Matarbari Coal Power Plant (1,200 MW, fully operational).
 - **Recommendation(s):** Develop climate-resilient infrastructure to mitigate extreme cyclone and sea-level vulnerability.
 - **Note:** National strategic priority — heavy industry and energy hub with 3,500+ acres of deep-water access. Energy & Power receives 22.3% ($17.7B) of total corridor investment.
 
@@ -246,9 +246,9 @@
 - **Cluster(s):** Chattogram Cluster, North Bengal Cluster
 - **Belt(s):** Southeast gateway belt, Northwest production belt
 - **EZ/EPZs nearby:** All major EPZs/EZs
-- **Ports nearby:** Seaports (Chattogram, Mongla, Payra, Matarbari); Land ports (Benapole, Bhomra, Tamabil, Akhaura, Bibirbazar, Nakugaon, Banglabandha, Burimari)
+- **Ports nearby:** Seaports (Chattogram, Mongla, Payra, Matarbari); Land ports (Benapole, Bhomra, Tamabil, Akhaura, Bibirbazar, Banglabandha, Burimari)
 - **RCA:** Transport & Storage total linkage 39.28; wholesale/retail trade 57.96 total linkage
 - **Quick wins in:** Port-centric logistics, cross-border logistics
-- **Existing Operations:** Summit Alliance Port Limited (SAPL, Chattogram), Matarbari Deep-Sea Port channel, Banglabandha & Tamabil Land Ports (Operational cross-border trade).
+- **Existing Operations:** Summit Alliance Port Limited (SAPL, Chattogram), Matarbari Deep-Sea Port (under construction, target 2029–2030), Banglabandha & Tamabil Land Ports (Operational cross-border trade).
 - **Recommendation(s):** Develop Multimodal Logistics Hubs (MMLH) as consolidation, intermodal transfer, cold-chain, and bonded operations platforms. Shift from road haulage to rail/IWT.
 - **Note:** 200–300 km trip band is most common for freight. Strong transshipment potential for Nepal and Bhutan; could evolve into BIMSTEC/BBIN transshipment route.
