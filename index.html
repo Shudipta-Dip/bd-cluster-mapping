@@ -74,7 +74,18 @@
                 </div>
 
                 <div class="filter-group">
-                    <h4>RCA Filter <span class="rca-value" id="rca-display">≥ 0.00</span></h4>
+                    <h4>
+                        <span style="display: flex; align-items: center; gap: 6px;">
+                            RCA Filter
+                            <span class="tooltip-container" tabindex="0">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="help-icon"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+                                <span class="tooltip-text">
+                                    Revealed Comparative Advantage (RCA) is a way of measuring whether a country has a stronger export position in a product compared to the world average. If a product’s RCA is above 1, it means Bangladesh exports that good more intensively than the global norm, signaling competitiveness.
+                                </span>
+                            </span>
+                        </span>
+                        <span class="rca-value" id="rca-display">≥ 0.00</span>
+                    </h4>
                     <input type="range" id="rca-slider" min="0" max="17" step="0.1" value="0" class="rca-slider">
                     <div class="rca-range-labels">
                         <span>0</span>

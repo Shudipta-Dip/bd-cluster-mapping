@@ -130,6 +130,88 @@ header p { font-size: 0.8rem; color: var(--text-secondary); }
     justify-content: space-between;
 }
 
+/* Tooltip styling */
+.tooltip-container {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    cursor: help;
+    color: var(--text-secondary);
+    outline: none;
+    transition: color 0.2s;
+}
+
+.tooltip-container:hover, .tooltip-container:focus {
+    color: var(--accent-color);
+}
+
+.tooltip-text {
+    visibility: hidden;
+    opacity: 0;
+    width: 250px;
+    background-color: var(--card-bg);
+    color: var(--text-primary);
+    text-align: left;
+    border-radius: 8px;
+    padding: 10px 14px;
+    position: absolute;
+    z-index: 1000;
+    bottom: 150%;
+    left: 50%;
+    transform: translateX(-50%) translateY(10px);
+    font-size: 0.72rem;
+    font-weight: 400;
+    line-height: 1.4;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    border: 1px solid var(--border-color);
+    transition: opacity 0.2s, transform 0.2s, visibility 0.2s;
+    pointer-events: none;
+}
+
+.tooltip-text::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -6px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: var(--border-color) transparent transparent transparent;
+}
+.tooltip-text::before {
+    content: "";
+    position: absolute;
+    top: calc(100% - 1px);
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: var(--card-bg) transparent transparent transparent;
+    z-index: 1;
+}
+
+.tooltip-container:hover .tooltip-text, 
+.tooltip-container:focus .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
+
+@media (max-width: 768px) {
+    .tooltip-text {
+        width: 220px;
+        left: 0;
+        transform: translateX(-15%) translateY(10px);
+    }
+    .tooltip-text::after { left: 15%; }
+    .tooltip-text::before { left: 15%; }
+
+    .tooltip-container:hover .tooltip-text, 
+    .tooltip-container:focus .tooltip-text {
+        transform: translateX(-15%) translateY(0);
+    }
+}
+
 /* Checkboxes */
 .toggle-container {
     display: block;
