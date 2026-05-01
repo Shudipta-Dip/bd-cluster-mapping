@@ -27,7 +27,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown.min.css">
+    <link id="md-light-css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown-light.min.css">
+    <link id="md-dark-css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown-dark.min.css" disabled>
     <style>
         :root {
             --bg-color: #f8fafc;
@@ -51,10 +52,6 @@
             --accent-color: #818cf8;
             --sidebar-bg: #0f172a;
             --hover-bg: #334155;
-        }
-
-        [data-theme="dark"] .markdown-body {
-            color-scheme: dark;
         }
 
         body {
@@ -262,44 +259,7 @@
             padding: 1rem;
             border-radius: 0 8px 8px 0;
         }
-
-        /* Force table contrast in dark mode */
-        [data-theme="dark"] .markdown-body table {
-            border-color: #475569 !important;
-        }
-        [data-theme="dark"] .markdown-body table tr {
-            background-color: var(--card-bg) !important;
-            border-color: #475569 !important;
-        }
-        [data-theme="dark"] .markdown-body table tr:nth-child(2n) {
-            background-color: #263246 !important;
-        }
-        [data-theme="dark"] .markdown-body table th,
-        [data-theme="dark"] .markdown-body table td {
-            color: var(--text-primary) !important;
-            border-color: #475569 !important;
-            background-color: transparent !important;
-        }
-        [data-theme="dark"] .markdown-body table th {
-            background-color: #334155 !important;
-        }
-
-        /* Force code block contrast in dark mode */
-        [data-theme="dark"] .markdown-body code,
-        [data-theme="dark"] .markdown-body pre {
-            background-color: #1e293b !important;
-            color: #e2e8f0 !important;
-        }
-
-        /* Force link visibility */
-        .markdown-body a {
-            color: var(--accent-color) !important;
-        }
-
-        /* Force strong/bold visibility */
-        .markdown-body strong {
-            color: var(--text-primary) !important;
-        }
+        
         .loading {
             display: flex;
             justify-content: center;
@@ -377,6 +337,11 @@
         function setTheme(theme) {
             htmlEl.setAttribute('data-theme', theme);
             localStorage.setItem('reportTheme', theme);
+            
+            // Explicitly toggle markdown CSS to avoid OS media query conflicts
+            document.getElementById('md-dark-css').disabled = (theme !== 'dark');
+            document.getElementById('md-light-css').disabled = (theme === 'dark');
+
             if (theme === 'dark') {
                 iconMoon.style.display = 'none';
                 iconSun.style.display = 'block';
