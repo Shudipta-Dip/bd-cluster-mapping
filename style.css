@@ -157,8 +157,8 @@ header p { font-size: 0.8rem; color: var(--text-secondary); }
     position: absolute;
     z-index: 1000;
     bottom: 150%;
-    left: 50%;
-    transform: translateX(-50%) translateY(10px);
+    left: -10px;
+    transform: translateY(10px);
     font-size: 0.72rem;
     font-weight: 400;
     line-height: 1.4;
@@ -172,8 +172,7 @@ header p { font-size: 0.8rem; color: var(--text-secondary); }
     content: "";
     position: absolute;
     top: 100%;
-    left: 50%;
-    margin-left: -6px;
+    left: 17px;
     border-width: 6px;
     border-style: solid;
     border-color: var(--border-color) transparent transparent transparent;
@@ -182,8 +181,7 @@ header p { font-size: 0.8rem; color: var(--text-secondary); }
     content: "";
     position: absolute;
     top: calc(100% - 1px);
-    left: 50%;
-    margin-left: -5px;
+    left: 18px;
     border-width: 5px;
     border-style: solid;
     border-color: var(--card-bg) transparent transparent transparent;
@@ -194,21 +192,12 @@ header p { font-size: 0.8rem; color: var(--text-secondary); }
 .tooltip-container:focus .tooltip-text {
     visibility: visible;
     opacity: 1;
-    transform: translateX(-50%) translateY(0);
+    transform: translateY(0);
 }
 
 @media (max-width: 768px) {
     .tooltip-text {
         width: 220px;
-        left: 0;
-        transform: translateX(-15%) translateY(10px);
-    }
-    .tooltip-text::after { left: 15%; }
-    .tooltip-text::before { left: 15%; }
-
-    .tooltip-container:hover .tooltip-text, 
-    .tooltip-container:focus .tooltip-text {
-        transform: translateX(-15%) translateY(0);
     }
 }
 
