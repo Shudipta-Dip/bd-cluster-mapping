@@ -199,7 +199,34 @@ function buildSectorFilters() {
 // EVENT LISTENERS
 // ============================================================
 document.getElementById('toggle-clusters').addEventListener('change', e => {
-    e.target.checked ? map.addLayer(layers.clusters) : map.removeLayer(layers.clusters);
+    const isChecked = e.target.checked;
+    isChecked ? map.addLayer(layers.clusters) : map.removeLayer(layers.clusters);
+
+    const sectorsWrapper = document.getElementById('sectors-wrapper');
+    const sectorInputs = document.querySelectorAll('#sector-filters input');
+    const btnSelectAll = document.getElementById('btn-select-all');
+    const btnClearAll = document.getElementById('btn-clear-all');
+
+    if (!isChecked) {
+        sectorsWrapper.classList.add('disabled-section');
+        sectorInputs.forEach(cb => {
+            cb.disabled = true;
+            cb.checked = false;
+        });
+        btnSelectAll.disabled = true;
+        btnClearAll.disabled = true;
+        selectedSectors.clear();
+    } else {
+        sectorsWrapper.classList.remove('disabled-section');
+        sectorInputs.forEach(cb => {
+            cb.disabled = false;
+            cb.checked = true;
+            selectedSectors.add(cb.value);
+        });
+        btnSelectAll.disabled = false;
+        btnClearAll.disabled = false;
+        renderClusters();
+    }
 });
 document.getElementById('toggle-zones').addEventListener('change', e => {
     e.target.checked ? map.addLayer(layers.zones) : map.removeLayer(layers.zones);

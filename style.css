@@ -144,6 +144,13 @@ header p { font-size: 0.8rem; color: var(--text-secondary); }
 }
 .toggle-container:hover { opacity: 0.85; }
 
+.disabled-section {
+    opacity: 0.4;
+    pointer-events: none;
+    transition: opacity 0.3s ease, filter 0.3s ease;
+    filter: grayscale(100%);
+}
+
 .toggle-container input { position: absolute; opacity: 0; cursor: pointer; height: 0; width: 0; }
 
 .checkmark {
