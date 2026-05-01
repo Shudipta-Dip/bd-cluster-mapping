@@ -192,12 +192,12 @@ const mapData = {
     { name: "Pangaon ICT", type: "Seaport", lat: 23.5800, lng: 90.4300, desc: "Inland Container Terminal. River freight for Dhaka.", imageUrl: "https://static.bsaa.com.bd/uploads/store/page/a8e148a4-cc0e-46ed-a986-9a74dc6a3369/image/1200-f7ad408e73b70bd08c162d9c45cd6b35.jpg" },
     { name: "Benapole Land Port", type: "Land Port", lat: 23.0392, lng: 88.8967, desc: "Largest by volume. India–BD (West Bengal).", imageUrl: "https://static.bonikbarta.com/original_images/Benapole_collected.jpg" },
     { name: "Bhomra Land Port", type: "Land Port", lat: 22.8500, lng: 89.0100, desc: "SW gateway to India. Growing post-Padma Bridge.", imageUrl: "https://www.dailypost.net/media/imgAll/2023September/Satkhiraaa-20240404140934.jpg" },
-    { name: "Banglabandha Land Port", type: "Land Port", lat: 26.6200, lng: 88.4100, desc: "NW gateway. ~1.7M MT/yr. Nepal trade route.", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/42/Banglabandha_Port.jpg" },
+    { name: "Banglabandha Land Port", type: "Land Port", lat: 26.4000, lng: 88.6000, desc: "NW gateway. ~1.7M MT/yr. Nepal trade route.", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/42/Banglabandha_Port.jpg" },
     { name: "Burimari Land Port", type: "Land Port", lat: 26.3315, lng: 89.0494, desc: "NW heavyweight. ~3M MT/yr. India, Bhutan.", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/5/53/Burimari_land_custom_port%2C_Bangladesh.jpg" },
     { name: "Hili Land Port", type: "Land Port", lat: 25.1700, lng: 88.9800, desc: "Declining volumes. Losing to competitors.", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/7/7c/Panama_Hili_Port.jpg" },
     { name: "Tamabil Land Port", type: "Land Port", lat: 25.1764, lng: 92.0306, desc: "NE India border. Agro-trade.", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/f/f0/Tamabil_land_port_06.jpg" },
     { name: "Akhaura Land Port", type: "Land Port", lat: 23.8742, lng: 91.2132, desc: "~55K MT exports. India's Tripura.", imageUrl: "https://www.tbsnews.net/sites/default/files/styles/big_3/public/images/2021/11/07/akhaura_land_port.jpg" },
-    { name: "Bibirbazar Land Port", type: "Land Port", lat: 23.3500, lng: 91.2500, desc: "~90K MT exports. Rebounding.", imageUrl: "https://risingcumilla.com/wp-content/uploads/2023/06/Comilla-Bibir-Bazar-Land-Port-Increased-traffic-of-people-from-both-countries.webp" },
+    { name: "Bibirbazar Land Port", type: "Land Port", lat: 23.4000, lng: 91.1000, desc: "~90K MT exports. Rebounding.", imageUrl: "https://risingcumilla.com/wp-content/uploads/2023/06/Comilla-Bibir-Bazar-Land-Port-Increased-traffic-of-people-from-both-countries.webp" },
     { name: "Teknaf Land Port", type: "Land Port", lat: 20.8667, lng: 92.2983, desc: "Myanmar border. Trade collapsed ~1,400 MT.", imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/41/Entrance_of_Teknaf_land_port.jpg" },
     { name: "Sonarhat Land Port", type: "Land Port", lat: 25.8800, lng: 89.3900, desc: "NW. ~825K MT/yr. Growing.", imageUrl: "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-bsbk/2024/12/77c11d14e9c34f0daaabadd5fa63f5f0.jpg" }
   ],
@@ -207,7 +207,7 @@ const mapData = {
       name: "NW–Dhaka–SE Economic Corridor (2026)",
       color: "#ef4444",
       coordinates: [
-        [26.6200, 88.4100], [26.3315, 89.0494], [25.8800, 89.3900], [25.7500, 88.9000],
+        [26.4000, 88.6000], [26.3315, 89.0494], [25.8800, 89.3900], [25.7500, 88.9000],
         [25.1700, 88.9800], [24.8465, 89.3778], [24.4534, 89.7006], [24.1200, 89.0600],
         [24.0000, 90.4000], [23.8000, 90.4500], [23.6000, 90.5000],
         [23.4333, 91.1833], [22.7500, 91.5333], [22.3569, 91.7832],
