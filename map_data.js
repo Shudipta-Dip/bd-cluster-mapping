@@ -202,14 +202,16 @@ const mapData = {
         [21.7100, 91.8800], [21.6111, 91.9548], [21.4272, 92.0058], [20.8667, 92.2983]
       ]
     },
-
     {
-      name: "Central Belt (Gazipur–Savar–Narayanganj–Cumilla)",
-      color: "#a855f7",
-      coordinates: [
-        [24.0667, 90.2333], [24.0000, 90.4000], [23.9419, 90.2764],
-        [23.8000, 90.4500], [23.6667, 90.5167], [23.6000, 90.5000], [23.4333, 91.1833]
-      ]
-    }
+      name: "NW–Dhaka–SE Economic Corridor (SW Branch)",
+      color: "#ef4444",
+      coordinates: typeof SW_CORRIDOR_COORDS !== 'undefined' ? SW_CORRIDOR_COORDS : []
+    },
+    {
+      name: "NW–Dhaka–SE Economic Corridor (NE Branch)",
+      color: "#ef4444",
+      coordinates: typeof NE_CORRIDOR_COORDS !== 'undefined' ? NE_CORRIDOR_COORDS : []
+    },
+
   ]
 };
