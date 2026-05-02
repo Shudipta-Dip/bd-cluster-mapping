@@ -194,7 +194,7 @@ const mapData = {
     {
       name: "NW–Dhaka–SE Economic Corridor (2026)",
       color: "#ef4444",
-      coordinates: [
+      coordinates: typeof CORRIDOR_PATH_COORDS !== 'undefined' ? CORRIDOR_PATH_COORDS : [
         [26.4000, 88.6000], [26.3315, 89.0494], [25.8800, 89.3900], [25.7500, 88.9000],
         [25.1700, 88.9800], [24.8465, 89.3778], [24.4534, 89.7006], [24.1200, 89.0600],
         [24.0000, 90.4000], [23.8000, 90.4500], [23.6000, 90.5000],
