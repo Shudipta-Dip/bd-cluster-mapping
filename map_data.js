@@ -80,7 +80,7 @@ const mapData = {
       quickWins: "RMG, Frozen fish/shrimp, Light engineering",
       recommendation: "Leverage Padma Bridge connectivity for revitalized manufacturing.",
       description: "Port-led manufacturing linked to Mongla Port and Benapole border trade. Revitalized by Padma Bridge and Khulna–Mongla rail link.",
-      note: "Khulna–Jashore specialization in SW–D–NE corridor study.",
+      note: "Port-led manufacturing hub. Padma Bridge unlocks SW logistics corridor.",
       ezNearby: "Mongla EPZ, Jashore EPZ (under development), Khulna Industrial Area",
       portsNearby: "Mongla Seaport, Payra Seaport, Benapole, Bhomra Land Ports",
       existingOperations: "<ul><li><b>Textiles:</b> Garment & textile factories in Mongla EPZ</li><li><b>Agro:</b> Apex Foods (Rupsha, Khulna)</li><li><b>Light Eng:</b> Jashore BSCIC Light Engineering</li><li><b>Leather:</b> SAF Industries (Noapara, Jashore)</li></ul>"
@@ -111,19 +111,7 @@ const mapData = {
       portsNearby: "Matarbari Deep-Sea Port (under construction)",
       existingOperations: "<ul><li><b>Renewable Energy:</b> Teknaf Solar Power Plant (Joules Power, 20MW)</li><li><b>Energy:</b> Matarbari Coal Power Plant (1,200 MW, fully operational)</li><li><b>Logistics:</b> Matarbari Deep-Sea Port channel (under construction, target 2029–2030)</li></ul>"
     },
-    {
-      id: "mym", name: "Mymensingh-Netrokona Cluster", lat: 24.7471, lng: 90.4203, radius: 12000,
-      sectors: ["Automotive & EV Ecosystem", "Agro-processing", "Logistics"],
-      peakRCA: 0.20,
-      rcaDetails: "Bicycles +0.20 (HS 8712). Tobacco machinery +1.68 (HS 8478). Auto/machinery in high-complexity, low GVC quadrant.",
-      quickWins: "Two/three-wheeler EV manufacturing, Auto parts, Food processing",
-      recommendation: "Requires FDI and technology partnerships. Emerging strategic growth area for import substitution.",
-      description: "Transport equipment and food processing specialization (SW–D–NE corridor). Ceramics/glass potential.",
-      note: "Motor vehicles linkage 15.90. Local EV assembly emerging at NSEZ Mirsharai.",
-      ezNearby: "NSEZ (120km south), Bangabandhu Hi-Tech Park (90km south)",
-      portsNearby: "Nearest: Pangaon ICT (~100km); Chattogram Port (~250km); Nakugaon Land Port (Sherpur)",
-      existingOperations: "<ul><li><b>Auto/EV:</b> Runner Automobiles (Bhaluka)</li><li><b>Agro:</b> Giant Agro Processing Ltd (Bhaluka)</li><li><b>Logistics:</b> Nakugaon Land Port (Sherpur, cross-border with India/Meghalaya)</li></ul>"
-    },
+
     {
       id: "tour", name: "Tourism Cluster (Cox's Bazar–Teknaf)", lat: 21.4272, lng: 92.0058, radius: 14000,
       sectors: ["Logistics"],
@@ -214,16 +202,7 @@ const mapData = {
         [21.7100, 91.8800], [21.6111, 91.9548], [21.4272, 92.0058], [20.8667, 92.2983]
       ]
     },
-    {
-      name: "SW–Dhaka–NE Economic Corridor (2023)",
-      color: "#3b82f6",
-      coordinates: [
-        [23.0392, 88.8967], [22.8500, 89.0100], [22.4815, 89.6050], [22.8456, 89.5403],
-        [23.1700, 89.2100], [23.4200, 89.7500], [23.6000, 90.3500], [23.8000, 90.4200],
-        [24.0000, 90.4000], [23.9100, 90.7200], [24.7471, 90.4203],
-        [24.3600, 91.7500], [24.8949, 91.8687], [25.1050, 91.8000], [25.1764, 92.0306]
-      ]
-    },
+
     {
       name: "Central Belt (Gazipur–Savar–Narayanganj–Cumilla)",
       color: "#a855f7",

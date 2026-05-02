@@ -1,3 +1,5 @@
 *.pdf
 *.json
 details_extracted.txt
+full-corridor-*
+FACT_CHECK_DISCREPANCIES.md

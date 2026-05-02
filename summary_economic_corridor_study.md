@@ -77,57 +77,6 @@
 
 ---
 
-# Summary – SW–Dhaka–NE Economic Corridor Study
-
-> Source: *Bangladesh Economic Corridor Development Highlights* (August 2023, ADB)
-
-## What It Is
-- **Southwest–Dhaka–Northeast (SW–D–NE) Economic Corridor** — a separate, earlier corridor proposal
-- Covers **14 districts** from Khulna division → Dhaka → Sylhet & Mymensingh divisions
-- Goal: decentralize industrial growth away from Dhaka–Chattogram into lagging SW & NE regions
-
-## Growth Nodes & Sector Specializations
-
-| # | Growth Node | Key Sectors |
-|---|---|---|
-| 1 | **Dhaka–Gazipur–Narsingdi** | RMG, Pharmaceuticals, Electronics, Leather & Footwear |
-| 2 | **Khulna–Jashore** | Leather & Footwear, Frozen Fish/Shrimp, Jute |
-| 3 | **Mymensingh–Netrokona** | Food Processing, Transport Equipment, Ceramics/Glass |
-| 4 | **Sylhet–Habiganj** | Ceramics & Glass (local clay, glass sand, natural gas >4 tcf), Food Processing, Cross-border trade with NE India |
-| 5 | **Sunamganj** | Raw material supply — fisheries, agro-products (haor area) |
-
-## 12 Shortlisted Manufacturing Sectors
-1. Food Processing
-2. Leather & Footwear
-3. Textiles & RMG
-4. Jute
-5. Non-metallic Minerals (Cement, Glass, Ceramics)
-6. Shipbuilding
-7. Furniture
-8. Transport Equipment
-9. Pharmaceuticals
-10. Plastic Products
-11. Rubber & Rubber Products
-12. Electrical/Electronics & Heavy Machinery
-
-## Trade Gateways
-
-| Direction | Gateways |
-|---|---|
-| **Southwest** | Mongla seaport, Payra seaport, Benapole land port, Bhomra land port |
-| **Northeast** | Tamabil land port, Akhaura land port, Bibirbazar land port |
-
-## Projected Economic Impact
-
-| Metric | By 2035 | By 2050 |
-|---|---|---|
-| Corridor Earnings | $129B | $286B |
-| Incremental vs BAU | +$53B | +$178B |
-| Total Employment | — | 71.8M |
-| Additional Jobs Created | 2.3M (by 2025) | 40.7M |
-
----
-
 # BIDA FDI Heatmap: 11 Priority Sector Clusters
 
 > Enriched with data from *Northwest-Dhaka-Southeast (Tetulia-Dhaka-Teknaf): Economic Corridor Development Study* (Feb 2026)
@@ -155,18 +104,18 @@
 - **Note:** Serves Dhaka's large consumer base; leverages proximity to Dhaka's universities and skilled labor pool.
 
 ## 3. Automotive & EV Ecosystem
-- **Cluster(s):** Mymensingh–Netrokona, Mirsharai Cluster
+- **Cluster(s):** Mirsharai Cluster
 - **Belt(s):** Central Belt
 - **EZ/EPZs nearby:** NSEZ (National Special Economic Zone) in Mirsharai, Bangabandhu Hi-Tech Park (Gazipur), Abdul Monem EZ
 - **Ports nearby:** Chattogram Port (approx. 60 km from NSEZ); Pangaon Inland Container Terminal (for Central Belt)
 - **RCA:** Bicycles +0.20; machinery for preparing tobacco +1.68
 - **Quick wins in:** Two- and three-wheeler EV manufacturing, auto parts assembly, import substitution of light vehicles
-- **Existing Operations:** Runner Automobiles (operational motorcycle/EV assembly in Bhaluka, Mymensingh), Bangladesh Auto Industries Limited (BAIL) (Machinery installation operational in NSEZ, Mirsharai).
+- **Existing Operations:** Bangladesh Auto Industries Limited (BAIL) (Machinery installation operational in NSEZ, Mirsharai), Runner Automobiles (motorcycle/EV assembly in Bhaluka, Mymensingh).
 - **Recommendation(s):** Requires substantial FDI inflows and technology partnerships to develop. Prioritize resolving infrastructure bottlenecks (e.g., gas/utility connections for EV plants).
-- **Note:** Motor vehicles sector total linkage 15.90. Local assembly is an emerging strategic growth area to reduce import dependency. Auto parts are emerging alongside electronics assembly. Nakugaon Land Port (Sherpur, Mymensingh division) provides cross-border access to India's Meghalaya.
+- **Note:** Motor vehicles sector total linkage 15.90. Local assembly is an emerging strategic growth area to reduce import dependency. Auto parts are emerging alongside electronics assembly.
 
 ## 4. Leather & Footwear
-- **Cluster(s):** Chattogram Cluster, Khulna–Jashore
+- **Cluster(s):** Chattogram Cluster, South-West Cluster
 - **Belt(s):** Dhaka Industrial Belt
 - **EZ/EPZs nearby:** Mature EPZs in Chattogram, Dhaka EPZ
 - **Ports nearby:** Chattogram Port
@@ -196,7 +145,7 @@
 - **Quick wins in:** Export-oriented plastic toy manufacturing, plastic waste recycling, light plastic goods
 - **Existing Operations:** Ideal Fibre Industries (Fatullah, Narayanganj), Diamond Disposable and Plastic Industries (Keraniganj, Dhaka), S.K. Plastic Industries (Siddhirganj).
 - **Recommendation(s):** Expedite the completion of the BSCIC Plastic Industrial Estate (delayed to 2027) to relocate and formalize Old Dhaka's plastic factories. Integrate with light engineering for Mongla Port-linked manufacturing.
-- **Note:** Plastics and chemicals sector has a total linkage of 17.42. Shortlisted manufacturing sector in both corridor studies.
+- **Note:** Plastics and chemicals sector has a total linkage of 17.42. Shortlisted manufacturing sector in the corridor study.
 
 ## 7. Agro-processing
 - **Cluster(s):** North Bengal Cluster, South-West Cluster, North-East (Sylhet)
@@ -205,7 +154,7 @@
 - **Ports nearby:** Banglabandha, Burimari, Mongla Port, Hili, Sonarhat
 - **RCA:** Jute raw fibres +16.71, jute fabrics +4.14, spices +0.29, oilseeds +0.30; jute yarn –2.69
 - **Quick wins in:** Agribusiness (potatoes, maize, jute, cold storage)
-- **Existing Operations:** PRAN-RFL Agro factory (Natore), PRAN-RFL Habiganj Industrial Park (North-East), Giant Agro Processing Ltd (Bhaluka), Apex Foods (Rupsha, Khulna).
+- **Existing Operations:** PRAN-RFL Agro factory (Natore), PRAN-RFL Habiganj Industrial Park (North-East), Apex Foods (Rupsha, Khulna).
 - **Recommendation(s):** Establish Multimodal Logistics Hubs (MMLH) and cold storage to address strong seasonality and reliance on medium trucks for long-haul without consolidation points.
 - **Note:** Agricultural heartland with massive backward linkages (rice 30.29, aquaculture 30.17).
 
